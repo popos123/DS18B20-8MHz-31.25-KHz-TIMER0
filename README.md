@@ -9,5 +9,5 @@ So this library is working with:
 - 8 MHz clock at 3.3V or 5V,
 - TIMER0 or TIMER1 and TIMER2 running at 31.25 KHz
 
-To run this library just set in Your ATmega / ATtiny fusebits to run at 8 MHz and set clock in compiler e.g. in platformio.ini: board_build.f_cpu = 8000000L
+To run this library just #include the .h file, and set in Your ATmega / ATtiny fusebits to run at 8 MHz and set clock in compiler e.g. in platformio.ini: board_build.f_cpu = 8000000L
 Example code is in main.cpp
